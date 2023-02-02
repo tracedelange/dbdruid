@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  height: 100vh;
+}
+
+.header-container {
+
+  height: 10vh;
+  /* background-color: #4A6C6F; */
+  color: black;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.header-second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10%;
+  width: 50vw;
+}
+
+.footer-container {
+  width: 80%;
+  height: 10vh;
+  /* background-color: #4A6C6F; */
+  position: absolute;
+  margin-top: 5%;
+  color: black;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.footer-content-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10%;
+  width: 50vw;
+}
+
+.footer-content-row > p {
+  opacity: 0.75;
+  font-style: italic;
+}
+
+.content-container {
+  /* background-color: #AA5042; */
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+}
