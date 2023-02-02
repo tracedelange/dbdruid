@@ -1,13 +1,16 @@
 import React from 'react'
-import ReubeenPlaceholder from '../assets/reuben.png'
+import ReubeenPlaceholder from '../assets/Reuben-HD.png'
 
 const Reubeen = () => {
   return (
     <div className='content-container'>
     
-    {/* <div style={{display: 'flex', justifyContent: 'center'}}> */}
-    <img style={{width: '10%'}} src={ReubeenPlaceholder}></img>
-    <h1>Reubeen</h1>
+    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+    <img className='image' alt='Reubeen logo' src={ReubeenPlaceholder}></img>
+    <h1 style={{marginTop: '0', color: '#071e26'}}>Reubeen</h1>
+
+
+    </div>
     {/* </div> */}
     <p style={{fontStyle: 'italic'}}>The next generation of sandwich based social media</p>
     <p>I know you're probably thinking:</p>

@@ -3,7 +3,7 @@
 export const blogPosts = [
     {
         id: '1',
-        title: 'New Blog, Reubeen, Secret Project, Work',
+        title: 'New Blog, Reubeen and Secret Project',
         created_date: 'Feb 1, 2023'
     }
 
