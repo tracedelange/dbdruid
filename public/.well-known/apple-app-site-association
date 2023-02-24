@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "com.delangedev.reubeen",
+        "appID": "UWD8CC5K75.com.delangedev.reubeen",
         "paths": ["/log/*", "/user/*"]
       }
     ]
