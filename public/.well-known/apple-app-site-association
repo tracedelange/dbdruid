@@ -1,11 +1,19 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "UWD8CC5K75.com.delangedev.reubeen",
-        "paths": ["/log/*", "/user/*"]
-      }
-    ]
-  }
+"applinks": {
+  "details": [
+    {
+      "appIDs": [ "UWD8CC5K75.com.delangedev.reubeen" ],
+      "components": [
+        {
+          "/": "/logs/*",
+          "comment": "Matches any URL whose path starts with /log/"
+        },
+        {
+          "/": "/users/*",
+          "comment": "Matches any URL whose path starts with /user/"
+        },
+      ]
+    }
+  ]
+}
 }
