@@ -5,13 +5,13 @@
       "appIDs": [ "UWD8CC5K75.com.delangedev.reubeen" ],
       "components": [
         {
-          "/": "/logs/*",
+          "/": "/log/*",
           "comment": "Matches any URL whose path starts with /log/"
         },
         {
-          "/": "/users/*",
+          "/": "/user/*",
           "comment": "Matches any URL whose path starts with /user/"
-        },
+        }
       ]
     }
   ]
