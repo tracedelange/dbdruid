@@ -1,20 +1,29 @@
 {
-"applinks": {
-  "apps":[],
-  "details": [
-    {
-      "appIDs": [ "UWD8CC5K75.com.delangedev.reubeen" ],
-      "components": [
-        {
-          "/": "/log/*",
-          "comment": "Matches any URL whose path starts with /log/"
-        },
-        {
-          "/": "/user/*",
-          "comment": "Matches any URL whose path starts with /user/"
-        }
+  "applinks": {
+      "apps": [],
+      "details": [
+          {
+              "appIDs": [ "UWD8CC5K75.com.delangedev.reubeen" ],
+              "components": [
+                  {
+                      "#": "no_universal_links",
+                      "exclude": true,
+                      "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+                  },
+                  {
+                      "/": "/log/*",
+                      "comment": "Matches any URL whose path starts with /log/"
+                  },
+                  {
+                      "/": "/user/*",
+                      "comment": "Matches any URL whose path starts with /user/"
+                  }
+              ]
+          },
+          {
+              "appID": "UWD8CC5K75.com.delangedev.reubeen",
+              "paths": [ "/log/*", "/user/*" ]
+          }
       ]
-    }
-  ]
-}
-}
+  }
+  }
