@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import reubeen from "../assets/Reuben-HD.png";
 
 const Header = () => {
+
+  const reubeenUrl = process.env.REACT_APP_REUBEEN_SUBDOMAIN_URL
+
   return (
     <div className="header-container">
       <div className="header-second-row" style={{width: '40%'}}>
@@ -12,7 +15,8 @@ const Header = () => {
       <div className="header-second-row">
         <Link to="/">Home</Link>
         <Link to="blogs">Blog</Link>
-        <Link to="reubeen">Reubeen</Link>
+        <a href={reubeenUrl}>ReuBeen</a>
+        {/* <Link to="reubeen">Reubeen</Link> */}
         {/* <Link to="about">About</Link> */}
       </div>
       <div className="footer-divider" style={{ marginTop: "2%" }}></div>

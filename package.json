@@ -7,11 +7,15 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "mjml": "^4.13.0",
+    "node": "^18.0.0",
     "react": "^18.2.0",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.5",
     "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
+    "react-simple-image-slider": "^2.4.1",
+    "react-slideshow-image": "^4.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
