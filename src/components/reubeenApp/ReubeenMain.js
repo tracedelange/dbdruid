@@ -87,7 +87,10 @@ const ReubeenMain = () => {
           }}
         >
           <div>
+            <div style={{display: 'flex', flexDirection: 'row', justifyContent:'center', width: '100%'}}>
+
             <img src={idleLogo} className="idle-logo"></img>
+            </div>
             <p
               style={{
                 textAlign: "center",
@@ -99,18 +102,18 @@ const ReubeenMain = () => {
             >
               ReuBeen
             </p>
-            <p style={{ textAlign: "center", color: "#c2e6fc", fontSize: 23 }}>
+            <p className='text-large' style={{ textAlign: "center", color: "#c2e6fc" }}>
               The Social Sandwich App
             </p>
           </div>
           <div style={{}}>
-            <p style={{ textAlign: "center", color: "#c2e6fc", fontSize: 20 }}>
+            <p className='text-med' style={{ textAlign: "center", color: "#c2e6fc" }}>
               Rate and share your sandwich creations and discoveries
             </p>
-            <p style={{ textAlign: "center", color: "#c2e6fc", fontSize: 20 }}>
+            <p className='text-med' style={{ textAlign: "center", color: "#c2e6fc" }}>
               Connect with like-minded sandwich enthusiasts
             </p>
-            <p style={{ textAlign: "center", color: "#c2e6fc", fontSize: 20 }}>
+            <p className='text-med' style={{ textAlign: "center", color: "#c2e6fc" }}>
               Become a part of the sandwich community
             </p>
           </div>
@@ -120,7 +123,7 @@ const ReubeenMain = () => {
             </a>
           </div>
         </div>
-        <div className="reubeen-half">{Slideshow(10000, images)}</div>
+        <div className="reubeen-half slideshow-container">{Slideshow(10000, images)}</div>
       </div>
       <div
         style={{

@@ -188,6 +188,14 @@ img.image {
   /* overflow-y: hidden; */
 }
 
+.text-med {
+  font-size: 20px;
+}
+
+.text-large {
+  font-size: 23px;
+}
+
 .idle-logo {
 
   aspect-ratio: 1;
@@ -251,4 +259,47 @@ img.image {
 
 .slideshowDot.active {
   background-color: #6a0dad;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .reubeen-half{
+
+    margin: 0;
+    width: 100%;
+
+  }
+
+  .slideshow-container{
+    display: none;
+  }
+  .reubeen-background {
+    justify-content: center;
+  }
+  .idle-logo {
+    aspect-ratio: 1;
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .text-med {
+    /* font-size: 40px; */
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5%;
+    /* width: 80%; */
+  }
+  .text-large{
+    font-size: 20px;
+    margin: 0%;
+  }
+
+  .reubeen-header {
+    padding-right: 0%;
+  }
+  .reubeen-header a {
+    font-size: 16px;
+  }
+
 }
