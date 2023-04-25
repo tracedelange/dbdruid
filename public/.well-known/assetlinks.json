@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.delangedev.reubeen",
+        "sha256_cert_fingerprints":
+          ["0D:3E:EB:B2:9E:DA:08:4F:A7:05:88:63:5F:0D:F3:52:3B:30:E0:01:21:8A:A9:7C:FA:D8:EA:51:E2:15:E0:B2"]
+      }
+    }
+  ]
