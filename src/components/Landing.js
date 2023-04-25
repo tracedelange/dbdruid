@@ -5,24 +5,15 @@ const Landing = () => {
     <div className='content-container'>
 
       <h3>
-        Howdy folks,
+        Howdy!
       </h3>
-      <p>Welcome to the site. We're keeping it simple this time around. </p>
-      <p>This is where I'll be sharing some content like:</p>
+      <p>Welcome to the dev blog. We're keeping it simple this time around.</p>
+      <p>Here you can find:</p>
       <ul>
-        <li>Project updates</li>
-        <li>Media reviews</li>
-        <li>Prospect projects for the future</li>
+        <li>Project changelogs</li>
+        <li>Blog posts</li>
+        <li>Whatever else makes sense to host here :)</li>
       </ul>
-      <br></br>
-      <p>Other content I may add to this page...</p>
-      <ul>
-        <li>Counter for page visits</li>
-        <li>Blog post counter / project updates</li>
-        <li>Newsletter subscription field</li>
-      </ul>
-      <p>Also, what the hell is a RSS Feed? Is this the radio of webdev?</p>
-
     </div>
   )
 }
