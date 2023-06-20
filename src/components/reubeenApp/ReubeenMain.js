@@ -10,6 +10,7 @@ import Location from "../../assets/demo-images/Location.png";
 import LogDetails from "../../assets/demo-images/LogDetails.png";
 import Type from "../../assets/demo-images/Type.png";
 import UserRecord from "../../assets/demo-images/UserRecord.png";
+import playStoreLogo from '../../assets/google-play-badge.png'
 
 const ReubeenMain = () => {
   const images = [
@@ -117,9 +118,12 @@ const ReubeenMain = () => {
               Become a part of the sandwich community
             </p>
           </div>
-          <div>
-            <a href="https://apps.apple.com/us/app/reubeen/id6443568550">
-              <img src={appStoreIcon}></img>
+          <div className='button-container'>
+            <a href="https://apps.apple.com/us/app/reubeen/id6443568550" className='link'>
+              <img className='apple' src={appStoreIcon}></img>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.delangedev.reubeen&hl=en&gl=US" className='link' >
+              <img className='google' src={playStoreLogo} ></img>
             </a>
           </div>
         </div>
