@@ -2,26 +2,27 @@ import React from "react";
 import idleLogo from "../../assets/idle-logo.gif";
 import appStoreIcon from "../../assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg";
 import ReuBeenHeader from "./ReuBeenHeader";
-import Comments from "../../assets/demo-images/Comments.png";
 import Feed from "../../assets/demo-images/Feed.png";
 import FriendRequests from "../../assets/demo-images/FriendRequests.png";
-import FriendsList from "../../assets/demo-images/FriendsList.png";
-import Location from "../../assets/demo-images/Location.png";
-import LogDetails from "../../assets/demo-images/LogDetails.png";
+import Comments from "../../assets/demo-images/Comments.png";
 import Type from "../../assets/demo-images/Type.png";
 import UserRecord from "../../assets/demo-images/UserRecord.png";
 import playStoreLogo from '../../assets/google-play-badge.png'
+import Landing from "../../assets/demo-images/Landing.png";
+import LogDetails from "../../assets/demo-images/LogDetails.png";
+import Location from "../../assets/demo-images/Location.png";
+
 
 const ReubeenMain = () => {
   const images = [
     UserRecord,
-    Type,
-    Location,
-    Feed,
     LogDetails,
+    Location,
+    Type,
+    Feed,
     Comments,
     FriendRequests,
-    FriendsList,
+    Landing
   ];
 
   function Slideshow(delay, images) {
